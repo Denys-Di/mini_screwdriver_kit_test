@@ -1,0 +1,220 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+}
+
+
+.container {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background: #ff5722;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffc107;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.benefits,
+.specs {
+    background: #fff;
+    padding: 15px 10px;
+}
+
+.benefit-list,
+.spec-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.benefit-description{
+    text-align: start;
+}
+
+.benefit-item,
+.spec-item {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.reviews,
+.video,
+.order {
+    padding: 15px 10px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.reviews-list{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.reviews img {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.review-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.review-form .btn {
+    width: 100%;
+}
+
+.order .discount {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.order form input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order form .btn {
+    width: 85%;
+    cursor: pointer;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 15px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-out, height 0.3s ease-out;
+}
+
+
+
+.reviews p{
+    text-align: start;
+}
+
+.review-image {
+    max-width: 900px;
+    height: auto;
+    margin-top: 10px;
+    
+}
+
+.list_reviews{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video{
+    width: 100%;
+}

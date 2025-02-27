@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/DALL·E 2025-02-27 16.26.14 - A simple and modern favicon design for a cordless mini screwdriver website. The icon should be minimalistic, featuring a stylized mini screwdriver sil.ico" type="image/x-icon">
+    <title>Міні-Шуруповерт</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+    <header class="hero">
+        <div class="container">
+            <img src="./images/Баннер - викрутка 2.jpg" alt="Міні-шуруповерт">
+            <h1>Акумуляторний Шуруповерт 24V</h1>
+            <p>Потужний, зручний та компактний. Ідеально підходить для роботи вдома та на виробництві!</p>
+            <a href="#order" class="btn">Замовити зі знижкою</a>
+        </div>
+    </header>
+
+    <section class="benefits">
+        <h2>Опис</h2>
+            <div class="benefit-description">
+                <p class="benefit-item">
+                    Акумуляторний дриль-шуруповерт призначений для свердління отворів у дереві та металі, а також
+                    відкручування/закручування кріпильних елементів: гвинтів, саморізів, шурупів. Використовується зі
+                    стандартними
+                    насадками, бітами та свердлами по дереву та металу.
+                </p>
+            </div>
+    </section>
+    
+    <section class="benefits">
+            <h2>Переваги</h2>
+            <button class="collapsible">Показати переваги</button>
+            <div class="collapsible-content">
+                <div class="benefit-list">
+                    <div class="benefit-item">⚡ Потужність 24V</div>
+                    <div class="benefit-item">🔋 Ємний акумулятор</div>
+                    <div class="benefit-item">🔄 45 насадок</div>
+                    <div class="benefit-item">🛠 Комплектний кейс</div>
+                </div>
+            </div>
+    </section>
+
+    <section class="specs">
+            <h2>Характеристики</h2>
+            <button class="collapsible">Показати характеристики</button>
+            <div class="collapsible-content">
+            <ul class="benefit-list">
+                <li  class="benefit-item" >Потужність: 24V</li>
+                <li class="benefit-item">Кількість насадок: 45</li>
+                <li class="benefit-item">Живлення: акумулятор</li>
+                <li class="benefit-item">Час зарядки: 2 години</li>
+            </ul>
+            </div>
+    </section>
+    
+    <section class="reviews">
+            <h2>Залишити відгук</h2>
+            <form class="review-form" id="review-form">
+                <input type="text" id="username" placeholder="Ваше ім'я" required>
+                <textarea id="review-text" placeholder="Ваш відгук" required></textarea>
+                <input type="file" id="review-photo" accept="image/*">
+                <button type="submit" class="btn">Надіслати</button>
+            </form>
+            <h2>Відгуки покупців</h2>
+            <div id="reviews-list" class="list_reviews"></div> 
+    </section>
+    
+    <section class="video">
+        <div class="container">
+            <h2>Демонстрація роботи</h2>
+            <video controls class="video">
+                <source src="./video/How to Use 3.6V Rechargeable Cordless Electric Screwdriver - Low Cost LONGSA 47 Toolkits.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+    </section>
+    
+    <section class="order" id="order">
+            <h2>Оформити замовлення</h2>
+            <p class="discount">Знижка 30%! Акція до кінця дня!</p>
+            <form>
+                <input class="order_inp" type="text" placeholder="Ваше ім'я" required>
+                <input class="order_inp" type="tel" placeholder="Телефон" required>
+                <button type="submit" class="btn">Замовити зараз</button>
+            </form>
+    </section>
+    </div>
+
+</body>
+
+</html>
