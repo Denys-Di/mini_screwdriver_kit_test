@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Додаємо функціонал для кнопок згортання
     const collapsibles = document.querySelectorAll(".collapsible");
     
     collapsibles.forEach(button => {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Форма для відгуків
     const reviewForm = document.getElementById("review-form");
     const reviewsList = document.getElementById("reviews-list");
     const reviewPhoto = document.getElementById("review-photo");
@@ -48,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const reviewText = document.getElementById("review-text").value.trim();
         const photoFile = reviewPhoto.files[0];
 
-        // Перевірка, чи ім'я містить тільки букви (латиниця, кирилиця)
         const nameRegex = /^[A-Za-zА-Яа-яЁёІіЇїЄєҐґ\s]+$/;
 
         if (!username || !reviewText) {
